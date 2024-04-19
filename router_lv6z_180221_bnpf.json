@@ -1,0 +1,37 @@
+const getUniqueValues = array => [...new Set(array)];
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+68 + true
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+apple
+
+console.log(getRandomString());
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const getUniqueValues = array => [...new Set(array)];
+
+apple * 71
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true * 49
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+false * 38
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana
+
+const reverseString = str => str.split("").reverse().join("");
